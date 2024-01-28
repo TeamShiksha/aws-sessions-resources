@@ -1,0 +1,3 @@
+Try deploying this nodejs app on your own: https://github.com/aps08/samplenodejsapp
+Use this article: https://aps08.medium.com/deploy-a-nodejs-app-on-ec2-8ee1d4d51dbc
+More to learn : AMI, Elastic IP, Encryption, EBS Volume Types and Instance Purchase options
