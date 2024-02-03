@@ -1,0 +1,7 @@
+#!/bin/bash
+# install httpd
+yum update -y
+yum install -y httpd
+systemctl start httpd
+systemctl enable httpd
+echo "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><meta name='viewport' content='width=device-width, initial-scale=1.0'>  <title>TeamShiksha</title><style>body { display: flex;align-items: center;justify-content: center;height: 100vh;margin: 0;}h2 {text-align: center;}</style></head><body><h2>Load Balancer Demo</h2><br><h3>$(hostname -I)</h3></body></html>" > /var/www/html/index.html
